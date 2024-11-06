@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <form action="">
+            <legend>Форма регистрации</legend>
+            <fieldset>
+                <section>
+                <label for="name" class="sr-only">Имя</label>
+                <p>Имя</p>
+                <input type="text" name="name" placeholder="Введите ваше имя" id="name">
+                </section>
+                <section>
+                <label for="nickname" class="sr-only">Имя пользователя</label>
+                <p>Имя пользователя</p>
+                <input type="text" name="nickname" id="nickname" placeholder="Введите ваше имя пользователя">
+                </section>
+                <section>
+                <label for="surname" class="sr-only">Фамилия</label>
+                <p>Фамилия</p>
+                <input type="text" name="surname" id="surname" placeholder="Ваша Фамилия ">
+                </section>
+                <section>
+                    <label for="email" class="sr-only">Почта</label>
+                    <p>Почта</p>
+                    <input type="email" name="email" id="email" placeholder="Ваша почта">
+                </section>
+                <div id="checkbox">
+                <button form="checkbox">Зарегестрироваться</button>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <div>
+            </fieldset>
+        </form>
+    </body>
+</html>
